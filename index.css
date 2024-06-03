@@ -1,0 +1,97 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Navbar styles */
+  .navbar {
+    background-color: #803D3B;
+    border: none;
+  }
+  
+  .navbar-brand {
+    color: #E4C59E;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+  }
+  
+  .navbar-nav > li {
+    display: inline-block;
+  }
+  
+  .navbar-nav > li > a {
+    color: #E4C59E;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  .navbar-nav > li.active > a {
+    background-color: #803D3B;
+  }
+  
+  /* Tagline styles */
+  .tagline {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #803D3B;
+  }
+  
+  /* Order block styles */
+  .orderblock {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .orderblock h2 {
+    font-size: 28px;
+    color: #322C2B;
+  }
+  
+  .orderblock a {
+    background-color: #AF8260;
+    color: #E4C59E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .orderblock a:hover {
+    background-color: #803D3B;
+    border: #803D3B;
+  }
+  
+  /* Slideshow styles */
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .mySlides img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  
+  /* Box styles */
+  .box {
+    background-color: #322C2B;
+    padding: 20px;
+    margin-top: 50px;
+  }
