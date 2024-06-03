@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Navbar styles */
+  .navbar {
+    background-color: #803D3B;
+    border: none;
+  }
+  
+  .navbar-brand {
+    color: #E4C59E;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+  }
+  
+  .navbar-nav > li {
+    display: inline-block;
+  }
+  
+  .navbar-nav > li > a {
+    color: #E4C59E;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  /* Additional styles */
+  .jumbotron {
+    background-image: url('background.jpeg');
+    background-size: cover;
+    opacity: 0.5;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .jumbotron h1 {
+    color: #E4C59E;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .mypanel {
+    background-color: #E4C59E;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+  }
+  
+  .mypanel img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .mypanel h4 {
+    color: #322C2B;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .mypanel h5 {
+    color: #803D3B;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .mypanel input[type="number"] {
+    width: 60px;
+  }
+  
+  .mypanel input[type="submit"] {
+    margin-top: 5px;
+  }
+  
+  .jumbotron p {
+    color: #E4C59E;
+    font-size: 18px;
+  }
